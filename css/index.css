@@ -236,3 +236,10 @@ button{
     background: white;
     }
 
+    /*Final section*/
+.letsWork{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
