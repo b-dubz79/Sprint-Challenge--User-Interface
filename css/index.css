@@ -138,6 +138,36 @@ a{
     align-items: center;
     justify-content: center;
 }
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
 
 
 .bottom-content {
@@ -182,6 +212,7 @@ footer nav a {
     Width: 100%;
     border-bottom: 1px dashed gray;
     padding-bottom: 20px;
+    padding-left: 15px;
     margin-bottom: 20px;
 }
 /*Main Section*/

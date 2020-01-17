@@ -32,15 +32,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+1.	If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Semantic HTML gives meaning to each section of code.  Without semantic HTML it’s like giving someone directions without actually naming the roads.
 
-3. What are the 4 areas of the box model?
+2.	Name two big differences between display: block; and display: inline;.
 
-4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+Display block is a container that spans the entire width of the page by default. So the next container will be forced to go below it.  Inline allows multiple elements on the same line.
 
-5. Explain why git is valuable to a team of developers.
+Another difference is that inline elements will ignore top and bottom margin settings but will apply left /right margins and padding.
+
+3.	What are the 4 areas of the box model?
+Content, padding, border, margin
+
+4.	While using flexbox, what axis does the following property work on: align-items: center? The cross axis.
+
+5.	Explain why git is valuable to a team of developers.
+
+Git is version control which means if you are properly committing your work you can always revert back to a previous version.  This is invaluable for those instances where you make changes that break the current version of the code.  It also allows multiple people to work on the same code and commit changes.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
