@@ -184,3 +184,55 @@ footer nav a {
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+/*Main Section*/
+.categories{
+     display: flex;
+	 flex-wrap: wrap;
+	 justify-content: space-between;
+     margin-bottom: 20px;
+    }
+     
+.strategy{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    
+    border-bottom: 1px dashed gray;
+    margin-bottom: 30px;
+    }
+.how{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 30px;
+        }
+.places{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 40px;
+    }
+.collab{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 40px;
+    }
+
+button{
+    width: 90px;
+    height: 30px;
+    margin-top:15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background: white;
+    }
+
