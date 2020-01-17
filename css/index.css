@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -66,6 +67,32 @@ p {
     line-height: 1.4;
 }
 
+body{
+    margin: 2% auto 5% auto;
+    width: 800px;
+}
+
+/* Home page*/
+/* Navigation area with Lambda pic*/
+a{
+	text-decoration: none;
+}
+.entireNav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+/*Wide IMG*/
+.middle-img{
+    margin-bottom: 20px;
+}
+/* Section 1 */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +138,37 @@ p {
     align-items: center;
     justify-content: center;
 }
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -144,3 +202,75 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page*/
+
+.about{
+    display: flex;
+    flex-direction: column;
+    
+    Width: 100%;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+/*Main Section*/
+.categories{
+     display: flex;
+	 flex-wrap: wrap;
+	 justify-content: space-between;
+     margin-bottom: 20px;
+    }
+     
+.strategy{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    
+    border-bottom: 1px dashed gray;
+    margin-bottom: 30px;
+    }
+.how{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 30px;
+        }
+.places{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 40px;
+    }
+.collab{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 48%;
+    border-bottom: 1px dashed gray;
+    margin-bottom: 40px;
+    }
+
+button{
+    width: 90px;
+    height: 30px;
+    margin-top:15px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background: white;
+    }
+
+    /*Final section*/
+.letsWork{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
